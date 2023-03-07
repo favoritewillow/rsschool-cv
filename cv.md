@@ -8,9 +8,9 @@
 
 ## Contacts
 
-- **Phone:**
-- **E-mail:**
-- **GitHub:**
+- **Phone:** +30503933808
+- **E-mail:** `favoritewillow@gmail.com`
+- **GitHub:** https://github.com/favoritewillow
 
 ---
 
@@ -23,22 +23,38 @@ jnvkjvjvlklkldfldfl
 ## Skills
 
 - HTML
-- CSS ()
-- JavaScript (basic)
--
--
+- CSS3
+- JavaScript (beginner)
+- React (beginner)
+- GitHub
+- Bootstrap
 
 ---
 
 ## Code example
 
+```
+function multiply(a, b){
+  return (a * b)
+}
+```
+
 ---
 
 ## Education
 
-- university
-- courses
+- **University:** National Technical University of Ukraine "Ihor Sikorsky Kyiv Polytechnic Institute"
+- **Courses:** SheCodes
 
 ---
 
 ## Languages
+
+- **English:** Intermediate;
+  According to the online test at EFset Logo www.efset.org:
+
+  - Reading Score - 61% (Intermediate);
+  - Listening Score - 79% (Intermediate).
+
+- **Ukrainian:** native;
+- **Russian:** native.
