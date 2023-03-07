@@ -43,7 +43,7 @@ function multiply(a, b){
 
 ## Education
 
-- **University:** National Technical University of Ukraine "Ihor Sikorsky Kyiv Polytechnic Institute"
+- **University:** National Technical University of Ukraine "Ihor Sikorsky Kyiv Polytechnic Institute". Faculty of Electrical Engineering and Automation.
 - **Courses:** SheCodes
 
 ---
