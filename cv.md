@@ -4,6 +4,8 @@
 
 # Natalie Dub
 
+![Photo](/images/Photo.png)
+
 ---
 
 ## Contacts
