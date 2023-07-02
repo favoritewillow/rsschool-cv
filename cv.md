@@ -18,8 +18,8 @@
 
 ## About myself
 
-My career started as a designer alarm systems. After year I was promoted to the head of the design department. Now I’m interested in coding and started my study Front-end, was trained SheCodes courses, after courses I understood that I didn’t have enough knowledge in theory and read John Duckett’s book “HTML and CSS”. I improve my knowledge of theory and practice every day.
-Briefly about myself: I know from my experience how to intended purpose, how to organize myself and others, and find solutions to problems of various complexity.
+My career started as a designer of alarm systems. After a year, I was promoted to the head of the design department. Now I'm interested in coding and have started studying Front-end development. I took the SheCodes courses, but after completing them, I realized that I needed to enhance my theoretical knowledge. I decided to read John Duckett's book 'HTML and CSS' to deepen my understanding. I am dedicated to improving my theoretical knowledge and practical skills every day.
+Briefly about myself: Through my experience, I have learned how to effectively fulfill my intended purpose, organize both myself and others, and find solutions to problems of various complexities.
 
 ---
 
