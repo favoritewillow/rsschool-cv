@@ -1,0 +1,28 @@
+.header__navigation {
+  background-color: $color-brand;
+  display: flex; 
+  max-width: $content-width;
+  margin: auto;
+}
+
+.navigation {
+  display: flex;
+  font-size: 1.4rem;
+  
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 2rem;
+  cursor: pointer;
+  
+  a {
+    color: $color-nav-link;  
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $color-text;  
+  }
+
+}
