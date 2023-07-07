@@ -1,4 +1,6 @@
+@import 'base/normalize';
 @import 'abstract/constants';
+@import 'abstract/mixins';
 @import 'layouts/wrapper';
 @import 'base/base';
 @import 'components/navigation';
@@ -6,4 +8,5 @@
 @import 'components/logo';
 @import 'components/promo';
 @import 'components/photo';
+@import 'components/two-columns';
 

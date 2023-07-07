@@ -1,7 +1,7 @@
-* {
+/** {
   margin: auto;
   padding: 0;
-}
+}*/
 
 html {
   font-size: 10px;
@@ -10,31 +10,26 @@ html {
 body {
   font-size: 1.6rem;
   font-family: 'Poppins', Verdana, sans-serif;  
+  margin: auto;
 }
 
-h1 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 4.8rem;  
+h1 {  
+  @include font($size: 4.8rem, $weight: bold);
   color: $color-h;
 }
 
 h2 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3rem;  
+  @include font($size: 3rem);   
   color: $color-h;
 }
 
 .type {
-  font-weight: bold;
+  @include font($size: 1.6rem, $weight: bold);
   color: $color-text;
 }
 
 p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.6rem;  
+  @include font($size: 1.6rem);
   color: $color-text;
 }
 

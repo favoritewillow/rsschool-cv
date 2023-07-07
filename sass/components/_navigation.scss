@@ -1,12 +1,15 @@
 .header__navigation {
   background-color: $color-brand;
   display: flex; 
+  justify-content: end;
   max-width: $content-width;
   margin: auto;
 }
 
 .navigation {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 1.4rem;
   
 }
