@@ -2,11 +2,15 @@
 @import 'abstract/constants';
 @import 'abstract/mixins';
 @import 'layouts/wrapper';
+@import 'layouts/two-columns';
 @import 'base/base';
+@import 'base/logo';
+@import 'base/icons';
 @import 'components/navigation';
 @import 'components/footer';
-@import 'components/logo';
 @import 'components/promo';
 @import 'components/photo';
-@import 'components/two-columns';
+@import 'components/list';
+@import 'components/code';
+
 

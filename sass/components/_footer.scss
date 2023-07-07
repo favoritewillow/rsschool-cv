@@ -2,4 +2,31 @@
   background-color: $color-brand;
   max-width: $content-width;
   margin: auto;
+
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+    p {
+      color: $color-nav-link;  
+    }
+
+    a {
+      text-decoration: none;
+      padding-left: 2rem;
+      color: $color-nav-link;  
+    } 
+
+    a:hover {
+    color: $color-text; 
+    cursor: pointer; 
+  }
+
+  }
+}
+
+.footer__p {
+  font-size: 1.4rem;
+  padding-left: 3rem;
 }

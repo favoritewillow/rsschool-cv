@@ -11,13 +11,14 @@
   justify-content: space-between;
   align-items: center;
   font-size: 1.4rem;
+  padding-right: 1.5rem;
   
 }
 
 .navigation__link {
   list-style: none;
-  padding: 2rem;
-  cursor: pointer;
+  padding: 1rem;
+  
   
   a {
     color: $color-nav-link;  
@@ -26,6 +27,7 @@
 
   a:hover {
     color: $color-text;  
+    cursor: pointer;
   }
 
 }

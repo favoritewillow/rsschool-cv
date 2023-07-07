@@ -15,7 +15,7 @@
   <header class="header">
     <nav class="header__navigation">
       <ul class="navigation">
-        <li class="navigation__link">
+        <li class="navigation__link link">
           <a href="#">
             Contacts
           </a>
@@ -56,7 +56,7 @@
           <h1>
             Natalie Dub
           </h1>
-          <h2>
+          <h2 class="h2">
             Junior frond-end developer
           </h2>
         </div>        
@@ -69,22 +69,22 @@
             <h2>
               Contacts
             </h2>
-            <ul>
-              <li>
+            <ul class="contacts">
+              <li class="link__contacts">
                 <span class="ico ico_phone"></span>
                 <span class=type>Tel:</span>
-                <a href="tel:+30503933808">
+                <a href="tel:+30503933808" >
                   +30503933808
                 </a>
               </li>
-              <li>
+              <li class="link__contacts">
                 <span class="ico ico_letter"></span>
                 <span class=type>Email:</span>
                 <a href="mailto:favoritewillow@gmail.com">
                   favoritewillow@gmail.com
                 </a>
               </li>
-              <li>
+              <li class="link__contacts">
                 <span class="ico ico_git"></span>
                 <span class=type>GitHub:</span>
                 <a href="https://github.com/favoritewillow">
@@ -116,7 +116,7 @@
             <h2>
               Skills
             </h2>
-            <ul>
+            <ul class="skills">
               <li>
                 <span class=type>
                   Web-development:
@@ -147,16 +147,11 @@
             <h2>
               Code example
             </h2>
-            <pre>
+            <pre class="code">
               <code>
-                function animal(obj){
-                var obj = {
-                name: obj['name'],
-                legs: obj['legs'],
-                color: obj['color']
-                };
-                
-                return `This ${obj['color']} ${obj['name']} has ${obj['legs']} legs.`
+                function helloWorld() {
+                let str = "Hello World!";
+                console.log(str);
                 }
               </code>            
             </pre>
@@ -165,7 +160,7 @@
             <h2>
               Education
             </h2>
-            <ul>
+            <ul class="education">
               <li>
                 <span class=type>
                   University:
@@ -186,7 +181,7 @@
             <h2>
               Projects
             </h2>
-            <ul>
+            <ul class="projects">
               <li>
                 <a href="https://github.com/favoritewillow/join-us" target="_blank">
                   Join us
@@ -208,7 +203,7 @@
             <h2>
               Languages
             </h2>
-            <ul>
+            <ul class="languages">
               <li>
                 <span class=type>
                   English:
@@ -249,7 +244,7 @@
   </main>
   <footer class="footer">
     <div class="footer__link">
-      <p>
+      <p class="footer__p">
         <span class="year">2023</span>
         <a href="https://github.com/favoritewillow">
           favoritewillow

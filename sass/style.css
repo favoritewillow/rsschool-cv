@@ -7,6 +7,19 @@
   margin: auto;
 }
 
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.layout-2-column > * {
+  flex-basis: 50%;
+}
+
+.info__about, .info__code, .info__projects, .info__img {
+  padding: 0 2rem 0 4rem;
+}
+
 /** {
   margin: auto;
   padding: 0;
@@ -27,6 +40,7 @@ h1 {
   font-weight: bold;
   line-height: 4.8rem;
   color: #aa77d0;
+  text-align: center;
 }
 
 h2 {
@@ -35,6 +49,9 @@ h2 {
   font-weight: normal;
   line-height: 3rem;
   color: #aa77d0;
+  text-align: left;
+  text-decoration-line: underline;
+  padding-left: 4rem;
 }
 
 .type {
@@ -43,14 +60,61 @@ h2 {
   font-weight: bold;
   line-height: 1.6rem;
   color: #1b032e;
+  padding-right: 1rem;
 }
 
 p {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.6rem;
+  line-height: 2rem;
   color: #1b032e;
+}
+
+.main {
+  max-width: 1197px;
+  margin: auto;
+}
+
+.h2 {
+  text-decoration-line: none;
+}
+
+.logo {
+  background-image: url(../images/logo/rs_school_js.svg);
+  width: 10rem;
+  height: 3.8rem;
+  display: flex;
+  margin-right: 3rem;
+}
+
+.ico {
+  cursor: pointer;
+  margin: 0.8rem 2rem;
+}
+
+.ico_phone, .ico_letter, .ico_git {
+  width: 3rem;
+  height: 2.2rem;
+  display: inline-block;
+}
+
+.ico_phone {
+  background-image: url(../images/icon/phone.svg);
+}
+
+.ico_letter {
+  background-image: url(../images/icon/email.svg);
+}
+
+.ico_git {
+  background-image: url(../images/icon/github.svg);
+}
+
+.link__contacts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .header__navigation {
@@ -66,12 +130,12 @@ p {
   justify-content: space-between;
   align-items: center;
   font-size: 1.4rem;
+  padding-right: 1.5rem;
 }
 
 .navigation__link {
   list-style: none;
-  padding: 2rem;
-  cursor: pointer;
+  padding: 1rem;
 }
 .navigation__link a {
   color: #fff;
@@ -79,6 +143,7 @@ p {
 }
 .navigation__link a:hover {
   color: #1b032e;
+  cursor: pointer;
 }
 
 .footer {
@@ -86,32 +151,70 @@ p {
   max-width: 1197px;
   margin: auto;
 }
+.footer__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__link p {
+  color: #fff;
+}
+.footer__link a {
+  text-decoration: none;
+  padding-left: 2rem;
+  color: #fff;
+}
+.footer__link a:hover {
+  color: #1b032e;
+  cursor: pointer;
+}
 
-.logo {
-  background-image: url(../images/logo/rs_school_js.svg);
-  width: 5.2rem;
-  height: 2rem;
-  display: inline-block;
-  background-color: rgb(10, 2, 23);
+.footer__p {
+  font-size: 1.4rem;
+  padding-left: 3rem;
 }
 
 .promo__wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 3rem 0 3rem 0;
 }
 
 .promo__photo {
-  /*background-image: url(../images/picture/Photo.png);
-  background-repeat: no-repeat;*/
   border-radius: 1.1rem 1.1rem;
-  /*width: 100rem;
-  height: 20rem;*/
   display: block;
 }
 
-.layout-2-column {
-  display: flex;
+.info__img {
+  max-width: 34%;
+  margin: auto;
+}
+
+.contacts {
+  padding: 0;
+}
+
+.contacts a, .projects a {
+  color: #aa77d0;
+  text-decoration: none;
+}
+.contacts a:hover, .projects a:hover {
+  color: #1b032e;
+  cursor: pointer;
+}
+
+.skills, .education, .languages, .projects {
+  list-style-type: circle;
+  color: #aa77d0;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 4rem;
+}
+
+.code {
+  margin-left: -14rem;
 }
 
 /*# sourceMappingURL=style.css.map */

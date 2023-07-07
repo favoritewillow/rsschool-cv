@@ -1,0 +1,21 @@
+.contacts {
+  padding: 0;  
+}
+
+.contacts, .projects {
+  a {
+    color: $color-brand;  
+    text-decoration: none;    
+  }
+
+  a:hover {
+    color: $color-text; 
+    cursor: pointer; 
+  }
+}
+
+.skills, .education, .languages, .projects {
+  list-style-type: circle;
+  color: $color-brand; 
+  @include font($size: 1.6rem, $height: 4rem);  
+}

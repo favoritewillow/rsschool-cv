@@ -16,20 +16,33 @@ body {
 h1 {  
   @include font($size: 4.8rem, $weight: bold);
   color: $color-h;
+  text-align: center;
 }
 
 h2 {
   @include font($size: 3rem);   
   color: $color-h;
+  text-align: left;
+  text-decoration-line: underline;
+  padding-left: 4rem;
 }
 
 .type {
   @include font($size: 1.6rem, $weight: bold);
   color: $color-text;
+  padding-right: 1rem;  
 }
 
 p {
-  @include font($size: 1.6rem);
+  @include font($size: 1.6rem, $height: 2rem);
   color: $color-text;
 }
 
+.main {
+  max-width: $content-width;  
+  margin: auto;
+}
+
+.h2 {
+  text-decoration-line: none;
+}
