@@ -1,11 +1,19 @@
 @import 'base/normalize';
+
+/*abstract*/
 @import 'abstract/constants';
 @import 'abstract/mixins';
+
+/*layouts*/
 @import 'layouts/wrapper';
 @import 'layouts/two-columns';
+
+/*base*/
 @import 'base/base';
 @import 'base/logo';
 @import 'base/icons';
+
+/*components*/
 @import 'components/navigation';
 @import 'components/footer';
 @import 'components/promo';

@@ -3,7 +3,11 @@
   display: flex; 
   justify-content: end;
   max-width: $content-width;
-  margin: auto;
+  margin: auto; 
+  
+  @include media-mobile {
+    justify-content: left;  
+  }
 }
 
 .navigation {
@@ -12,13 +16,17 @@
   align-items: center;
   font-size: 1.4rem;
   padding-right: 1.5rem;
+  @include media-mobile {    
+    font-size: 0.65rem;  
+    padding-left: 0.5rem;   
+    padding-right: 0; 
+  }
   
 }
 
 .navigation__link {
   list-style: none;
-  padding: 1rem;
-  
+  padding: 1rem;  
   
   a {
     color: $color-nav-link;  
@@ -28,6 +36,10 @@
   a:hover {
     color: $color-text;  
     cursor: pointer;
+  }
+
+  @include media-mobile {
+    padding: 0.5rem;   
   }
 
 }
