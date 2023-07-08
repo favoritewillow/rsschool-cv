@@ -1,0 +1,71 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', Verdana, sans-serif;  
+  margin: auto;
+}
+
+h1 {  
+  @include font($size: 4.8rem, $weight: bold);
+  color: $color-h;
+  text-align: center;
+
+  @include media-mobile {    
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+
+  
+}
+
+h2 {
+  @include font($size: 3rem);   
+  color: $color-h;
+  text-align: left;
+  text-decoration-line: underline;
+  padding-left: 4rem;
+
+  @include media-mobile {
+    text-align: left;
+    padding-left: 0;
+    font-size: 1.8rem;
+  }
+}
+
+.type {
+  @include font($size: 1.6rem, $weight: bold);
+  color: $color-text;
+  padding-right: 1rem;  
+
+  @include media-mobile {
+    @include font($size: 1.3rem, $height: 2rem, $weight: bold);
+  }
+}
+
+p {
+  @include font($size: 1.6rem, $height: 2rem);
+  color: $color-text;
+
+  @include media-mobile {
+    @include font($size: 1.3rem, $height: 2rem);
+  }
+}
+
+
+.main {
+  max-width: $content-width;  
+  margin: auto;
+}
+
+.h2 {
+  text-decoration-line: none;
+
+  @include media-mobile {
+    text-align: center;
+    padding-left: 0;
+    font-size: 2rem;
+  } 
+}

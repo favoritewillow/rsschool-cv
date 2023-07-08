@@ -1,0 +1,38 @@
+.contacts {
+  padding: 0; 
+  
+  @include media-mobile {
+    @include font($size: 1.3rem, $height: 2rem);
+    padding: 0 4.5rem 0 4.5rem;     
+  }
+}
+
+.contacts, .projects {
+  a {
+    color: $color-brand;  
+    text-decoration: none;    
+  }
+
+  a:hover {
+    color: $color-text; 
+    cursor: pointer; 
+  } 
+}
+
+.skills, .education, .languages, .projects {
+  list-style-type: circle;
+  color: $color-brand; 
+  @include font($size: 1.6rem, $height: 4rem);
+  
+  @include media-mobile {
+    @include font($size: 1.3rem, $height: 2rem);
+    padding: 0 4rem 0 5.5rem;
+  
+  }
+}
+
+.projects {
+   @include media-mobile {    
+    padding: 0 4rem 0 2rem;
+  }  
+}
