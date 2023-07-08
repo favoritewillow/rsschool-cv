@@ -1,0 +1,29 @@
+.ico {
+  cursor: pointer;
+  margin: 0.8rem 2rem;
+
+}
+
+.ico_phone, .ico_letter,  .ico_git{  
+  width: 3rem;
+  height: 2.2rem;
+  display: inline-block;    
+}
+
+.ico_phone {
+  background-image: url(../images/icon/phone.svg);   
+}
+
+.ico_letter {
+  background-image: url(../images/icon/email.svg);  
+}
+
+.ico_git {
+  background-image: url(../images/icon/github.svg); 
+}
+
+.link__contacts {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}

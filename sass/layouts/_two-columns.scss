@@ -1,0 +1,41 @@
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;    
+  >* {
+    flex-basis: 50%;
+  }  
+
+  @include media-mobile {
+    >* {
+    flex-basis: 100%;
+  }   
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 5rem 0 5rem;
+  }
+}
+
+.info__about, .info__code, .info__projects, .info__img {
+  padding: 0 2rem 0 4rem; 
+
+  @include media-mobile {    
+  padding: 0 4rem 0 4rem;
+  }
+}
+
+.info__skills, .info__education, .info__languages {
+  h2 {
+    @include media-mobile {    
+    padding: 0 4rem 0 4rem;
+    }
+  }
+}
+
+.info__contacts {
+  h2 {
+    @include media-mobile {    
+    padding: 0 4rem 0 6.5rem;    
+    }
+  }
+}
