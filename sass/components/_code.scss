@@ -1,0 +1,8 @@
+.code {
+  margin-left: -14rem;
+
+  @include media-mobile {
+    @include font($size: 1.3rem, $height: 2rem);
+    margin-left: -10rem;
+  }
+  }
